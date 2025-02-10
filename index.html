@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAGMI Media Lab</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Helvetica Neue", Arial, sans-serif;
+            background-color: white;
+            color: #333;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: #f8f8f8;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .title {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .title a {
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s;
+        }
+
+        .title a:hover {
+            color: navy;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: navy;
+        }
+
+        main {
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .container {
+            background-color: #fafafa;
+            padding: 1.5rem;
+            border-radius: 25px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .container img {
+            width: 300px;
+            height: 400px;
+            border-radius: 25px;
+            background-color: #ddd;
+            transition: transform 0.3s ease;
+        }
+
+        .container img:hover {
+            transform: scale(1.05);
+        }
+
+        .container .text {
+            flex: 1;
+        }
+
+        .container .text h2, .container .text h3 {
+            margin: 0;
+        }
+
+        .social-icons {
+            margin-top: 1rem;
+            display: flex;
+            gap: 1rem;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+            display: flex;
+            align-items: center;
+        }
+
+        .social-icons a:hover {
+            color: navy;
+        }
+
+        .social-icons a::before {
+            content: '';
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-right: 0.5rem;
+            background-color: #ddd;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="title"><a href="#inicio">WAGMI Media Lab</a></div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#isabella">Isabella</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Nosotros</h1>
+        <section class="container">
+            <img src="https://imgur.com/1cvC53Z.png" alt="Placeholder Image">
+            <div class="text">
+                <h2>Carolina Martins</h2>
+                <h3>Cofundadora y CEO</h3>
+                <p>Llevo más de 20 años metida en el mundo de la publicidad y los medios, y la verdad es que ha sido un viaje lleno de aprendizajes y cambios. Empecé en la producción audiovisual, trabajando como productora freelance para algunas de las agencias más reconocidas de Latinoamérica, como ARS/DDB y JWT Venezuela. Fueron más de 12 años llenos de retos, donde aprendí a gestionar equipos creativos, manejar proyectos complejos y construir relaciones sólidas con clientes.</p>
+                <p>Con el tiempo, decidí dar un giro hacia el marketing digital, algo que me apasiona muchísimo. Junto con unos amigos, fundé WAGMI Media Lab, donde ahora diseño e implemento estrategias digitales para clientes en Europa y América Latina. Mi enfoque siempre ha sido crear campañas que no solo sean visibles, sino que también generen resultados reales y medibles.</p>
+                <p>A lo largo del camino, he seguido aprendiendo y explorando nuevas áreas. Por ejemplo, me encanta enseñar lo que sé sobre producción audiovisual e idiomas, algo que me permite compartir experiencias y ayudar a nuevos talentos. Lo que más valoro es la capacidad de adaptarme y seguir creciendo, ya sea produciendo contenido o desarrollando estrategias que realmente funcionen. Al final, mi meta siempre ha sido ayudar a mis clientes y colaboradores a alcanzar sus objetivos de la mejor manera posible.</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/macaromartins/">LinkedIn</a>
+                    <a href="https://www.instagram.com/macaromartins/">Instagram</a>
+                    <a href="mailto:carolina@wagmimedia.agency">Email</a>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <img src="https://imgur.com/zdaJinF.png" alt="Placeholder Image">
+            <div class="text">
+                <h2>Jonathan Becerra</h2>
+                <h3>Cofundador y CMO</h3>
+                <p>Insert a brief description about Jonathan Becerra here.</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/jonathan-becerra0986/">LinkedIn</a>
+                    <a href="https://www.instagram.com/jonathan_bece_/">Instagram</a>
+                    <a href="mailto:jonathan@wagmimedia.agency">Email</a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -119,15 +119,39 @@
             color: navy;
         }
 
-        .social-icons a::before {
-            content: '';
-            display: inline-block;
-            width: 20px;
-            height: 20px;
-            margin-right: 0.5rem;
-            background-color: #ddd;
-            border-radius: 50%;
-        }
+        .social-icons a[href*="linkedin"]::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/174/174857.png');
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.social-icons a[href*="instagram"]::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/174/174855.png');
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.social-icons a[href*="mailto"]::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/732/732200.png');
+    background-size: cover;
+    border-radius: 50%;
+}
+
 
         @media (max-width: 768px) {
             .container {
